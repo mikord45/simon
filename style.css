@@ -1,0 +1,119 @@
+
+
+body{
+    margin: 0px;
+    font-family: Orbitron;
+}
+
+#main{
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+
+#menu{
+    width: 500px;
+    height: 500px;
+    /* background-color: pink; */
+    position: relative;
+}
+
+#mainPartOfMenu{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 300px;
+    height: 300px;
+    /* background-color: black; */
+    background-image: linear-gradient(to bottom,#2b2b2b, #0a0a0a);
+    border-radius: 50%;
+}
+
+.bt{
+    /* background-color: green; */
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    border: 10px solid black;
+    box-sizing: border-box;
+}
+
+#green{
+    left: 50px;
+    top: 50px;
+    /* background-color: green; */
+    background-image: linear-gradient(to bottom, #47de3a, #297d22);
+}
+
+#red{
+    left: 300px;
+    top: 50px;
+    /* background-color: red; */
+    background-image: linear-gradient(to bottom, #ff0800, #750e0b);
+}
+
+#yellow{
+    left: 50px;
+    top: 300px;
+    /* background-color: yellow; */
+    background-image: linear-gradient(to bottom, #f2f202, #abab03);
+    border: 15px solid black;
+}
+
+#blue{
+    left: 300px;
+    top: 300px;
+    /* background-color: blue; */
+    background-image: linear-gradient(to bottom, #1750ff, #001040);
+}
+ #inside{
+     position: relative;
+     width: 300px;
+     height: 300px;
+ }
+
+.insideBts{
+    position: absolute;
+    /* width: 100px; */
+    height: 50px;
+    background-color: #82827d;
+    top: 130px;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#topScore{
+    left: 20px;
+    width: 60px;
+    /* background-color: red; */
+}
+
+#start{
+    left: 90px;
+    width: 100px;
+    /* background-color: red; */
+
+}
+
+#currentScore{
+    left: 200px;
+    width: 60px;
+    /* background-color: red; */
+}
+
+#colSignal{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 200px;
+    left: 135px;
+    background-color: red;
+}
